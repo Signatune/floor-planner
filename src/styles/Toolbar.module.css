@@ -1,0 +1,43 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  height: 48px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  flex-shrink: 0;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+  margin-right: auto;
+}
+
+.tools {
+  display: flex;
+  gap: 4px;
+}
+
+.toolBtn {
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  color: #444;
+  transition: all 0.15s;
+}
+
+.toolBtn:hover {
+  background: #f0f0f0;
+}
+
+.toolBtn.active {
+  background: #1a73e8;
+  color: #fff;
+  border-color: #1a73e8;
+}

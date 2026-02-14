@@ -1,0 +1,11 @@
+.container {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  background: #fafafa;
+}
+
+.canvas {
+  display: block;
+  cursor: crosshair;
+}
